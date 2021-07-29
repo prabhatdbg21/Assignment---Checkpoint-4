@@ -1039,7 +1039,7 @@ fieldset{
         flex: 0 1 100%;
     }
     .nav li{
-        margin: 1.4rem 0;
+        margin: 2.3rem 0;
     }
     .nav li a{
         font-size: 2rem;
@@ -1053,5 +1053,8 @@ fieldset{
     }
     .values-figure figure{
         height: 40vh;
+    }
+    .sub-menu, .sub-menu-drop-down{
+        width: 170px;
     }
 }

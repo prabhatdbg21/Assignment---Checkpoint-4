@@ -982,6 +982,7 @@ fieldset{
     .med-margin-bottom{
         margin-bottom: 2rem;
     }
+
     .nav{
         display: none;
         position: fixed;
@@ -1038,10 +1039,10 @@ fieldset{
         flex: 0 1 100%;
     }
     .nav li{
-        margin: 1rem 0;
+        margin: 1.4rem 0;
     }
     .nav li a{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .sm-screen{
         display: inline-block;

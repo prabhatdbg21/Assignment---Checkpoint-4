@@ -791,6 +791,7 @@ h5{
 .contact-details{
     text-align: left;
     padding: 1.5rem;
+    height: 10rem;
 }
 .contact-details h5{
     color: #656262;
@@ -955,6 +956,14 @@ fieldset{
     height: 2.4rem;
 }
 
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 15px;
+    }
+    .container{
+        max-width: 1140px;
+    }
+}
 /* Med Screen */
 @media screen and (max-width: 992px){
     html{
@@ -1025,7 +1034,20 @@ fieldset{
     .footer-small{
         text-align: center;
     }
+    .blog-item article{
+        height: 80vh;
+    }
 }
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
+    .container{
+        max-width: 720px;
+    }
+}
+
 /* sm Screen */
 @media screen and (max-width: 576px){
     html{
@@ -1056,5 +1078,10 @@ fieldset{
     }
     .sub-menu, .sub-menu-drop-down{
         width: 170px;
+    }
+}
+@media screen and (max-width: 467px){
+    .blog-item article{
+        height: 70vh;
     }
 }

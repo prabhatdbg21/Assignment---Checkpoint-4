@@ -570,7 +570,8 @@ h5{
     display: inline-block;
     margin-bottom: 1.5rem;
 }
-.testimonials p{
+.testimonials q{
+    display: block;
     color: white;
     margin-bottom: 2rem;
 }
@@ -680,6 +681,7 @@ h5{
 /* Pricing */
 .pricing-box{
     padding: 0;
+    overflow: hidden;
 }
 .pricing-box-top, .pricing-box-bottom{
     background-color: var(--text-light-s);
@@ -834,9 +836,12 @@ fieldset{
     background-color: #fef9f7;
     padding: 3.5rem 0;
 }
-.footer-flexor address{
+.footer-flexor .address1{
     font-size: 0.8rem;
     margin: 0.6rem 0 2rem 0;
+}
+.footer-flexor address{
+    font-size: 0.8rem;
 }
 .footer-flexor p{
     font-size: 0.8rem;
@@ -916,7 +921,8 @@ fieldset{
 .blog-item article{
     padding: 0;
     margin-bottom: 2.5rem;
-    height: 93vh;
+    /* height: 93vh; */
+    align-self: stretch;
 }
 .blog-item h3{
     font-size: 1.2rem;
@@ -1034,9 +1040,6 @@ fieldset{
     .footer-small{
         text-align: center;
     }
-    .blog-item article{
-        height: 80vh;
-    }
 }
 
 @media screen and (max-width: 768px){
@@ -1078,10 +1081,5 @@ fieldset{
     }
     .sub-menu, .sub-menu-drop-down{
         width: 170px;
-    }
-}
-@media screen and (max-width: 467px){
-    .blog-item article{
-        height: 70vh;
     }
 }
